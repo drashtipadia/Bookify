@@ -1,0 +1,421 @@
+
+Dec 30, 2023 16:54:33.36 NEW SESSION
+Dec 30, 2023 16:54:33.36 [13136:10976:1230/165433.360:ERROR:device_event_log_impl.cc(192)] [16:54:33.345] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 30, 2023 17:15:33.99 [13136:10976:1230/171533.997:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+Dec 30, 2023 17:17:43.52 [13136:10976:1230/171743.528:ERROR:device_event_log_impl.cc(192)] [17:17:43.529] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Dec 30, 2023 17:41:14.66 [13136:6800:1230/174114.660:ERROR:cert_verify_proc_builtin.cc(705)] CertVerifyProcBuiltin for us.shb-sync.com failed:
+Dec 30, 2023 17:41:14.66 ----- Certificate i=0 (CN=us.shb-sync.com) -----
+Dec 30, 2023 17:41:14.66 ERROR: Time is after notAfter
+Dec 30, 2023 17:41:14.66 
+Dec 30, 2023 17:41:14.66 
+Dec 30, 2023 18:46:36.91 [13136:10976:1230/184636.911:ERROR:device_event_log_impl.cc(192)] [18:46:36.918] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jan 01, 2024 19:14:02.83 NEW SESSION
+Jan 01, 2024 19:14:02.83 [7668:6624:0101/191402.822:ERROR:device_event_log_impl.cc(192)] [19:14:02.826] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 01, 2024 22:31:05.93 [7668:6624:0101/223105.937:ERROR:device_event_log_impl.cc(192)] [22:31:05.942] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 01, 2024 23:13:22.80 [7668:6624:0101/231322.800:ERROR:device_event_log_impl.cc(192)] [23:13:22.806] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jan 02, 2024 11:00:51.55 NEW SESSION
+Jan 02, 2024 11:00:51.55 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Jan 05, 2024 08:03:27.81 NEW SESSION
+Jan 05, 2024 08:03:27.81 [13036:3336:0105/080327.809:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 08:19:18.46 [13036:3336:0105/081918.462:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Jan 05, 2024 08:25:40.90 [13036:3336:0105/082540.906:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 08:26:04.41 [13036:3336:0105/082604.418:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 08:26:48.51 [13036:3336:0105/082648.517:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 08:28:34.05 [13036:3336:0105/082834.053:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 08:31:59.56 [6396:728:0105/083159.562:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 08:32:27.31 [6396:728:0105/083227.314:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 08:33:43.67 [6396:728:0105/083343.671:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 08:34:13.03 [6396:728:0105/083413.036:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 08:35:09.13 [6396:728:0105/083509.130:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 08:36:53.94 [6396:728:0105/083653.942:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 08:39:16.26 [6396:728:0105/083916.265:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Jan 05, 2024 12:21:33.08 NEW SESSION
+Jan 05, 2024 12:21:33.08 [12156:4852:0105/122133.079:ERROR:checkin_request.cc(243)] Check-in request got net error: -21
+
+Jan 05, 2024 12:55:09.30 NEW SESSION
+Jan 05, 2024 12:55:09.30 [9396:860:0105/125509.299:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 12:55:37.52 [9396:860:0105/125537.525:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 12:56:59.62 [6288:2476:0105/125659.620:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 12:59:16.82 [6288:10028:0105/125916.823:ERROR:device_event_log_impl.cc(192)] [12:59:16.823] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 05, 2024 12:59:18.15 [6288:2476:0105/125918.154:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 13:00:10.61 [6288:2476:0105/130010.615:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 13:01:39.75 [6288:2476:0105/130139.749:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 13:05:08.29 [6288:2476:0105/130508.297:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 13:07:37.86 [6288:2476:0105/130737.865:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Jan 05, 2024 13:07:43.01 [6288:2476:0105/130743.010:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -331
+Jan 05, 2024 15:38:23.96 [6288:10028:0105/153823.968:ERROR:device_event_log_impl.cc(192)] [15:38:23.968] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 05, 2024 15:38:25.67 [6288:2476:0105/153825.677:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 05, 2024 15:47:39.87 [6288:10028:0105/154739.874:ERROR:sharing_service.cc(250)] Device un-registration failed with fatal error
+Jan 05, 2024 15:53:09.01 [6288:10028:0105/155309.011:ERROR:sharing_service.cc(250)] Device un-registration failed with fatal error
+Jan 05, 2024 16:05:47.85 [6288:10028:0105/160547.856:ERROR:device_event_log_impl.cc(192)] [16:05:47.857] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jan 05, 2024 21:46:27.35 NEW SESSION
+Jan 05, 2024 21:46:27.35 [12328:7260:0105/214627.350:ERROR:device_event_log_impl.cc(192)] [21:46:27.350] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 05, 2024 22:32:50.76 [12328:13272:0105/223250.766:ERROR:cert_issuer_source_aia.cc(135)] AiaRequest::OnFetchCompleted got error -7
+Jan 05, 2024 22:32:50.76 [12328:13272:0105/223250.766:ERROR:cert_verify_proc_builtin.cc(705)] CertVerifyProcBuiltin for internship.aicte-india.org failed:
+Jan 05, 2024 22:32:50.77 ----- Certificate i=0 (CN=*.aicte-india.org) -----
+Jan 05, 2024 22:32:50.77 ERROR: No matching issuer found
+Jan 05, 2024 22:32:50.77 
+Jan 05, 2024 22:32:50.77 
+
+Jan 08, 2024 10:24:11.70 NEW SESSION
+Jan 08, 2024 10:24:11.70 [7248:8584:0108/102411.701:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+Jan 10, 2024 10:05:47.56 NEW SESSION
+Jan 10, 2024 10:05:47.56 [6696:10228:0110/100547.561:ERROR:device_event_log_impl.cc(192)] [10:05:47.562] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jan 11, 2024 18:30:35.46 NEW SESSION
+Jan 11, 2024 18:30:35.46 [8784:12056:0111/183035.462:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2024 18:32:54.50 [8784:12056:0111/183254.502:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2024 18:38:19.41 [8784:12056:0111/183819.409:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 11, 2024 18:54:58.20 [8784:12056:0111/185458.204:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Jan 11, 2024 19:22:45.83 [8784:9412:0111/192245.831:ERROR:device_event_log_impl.cc(192)] [19:22:45.836] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jan 12, 2024 17:56:10.83 NEW SESSION
+Jan 12, 2024 17:56:10.83 [3792:10352:0112/175610.833:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 17:56:33.10 [3792:10352:0112/175633.106:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 17:57:32.17 [3792:10352:0112/175732.171:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 17:59:31.74 [3792:10352:0112/175931.745:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 18:01:13.29 [3792:10352:0112/180113.292:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 18:03:24.35 [3792:10352:0112/180324.351:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 18:05:46.80 [3792:10352:0112/180546.800:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 18:06:06.93 [3792:10352:0112/180606.937:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 18:11:07.76 [8704:5460:0112/181107.762:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 18:11:37.32 [8704:5460:0112/181137.328:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 18:12:18.44 [8704:5460:0112/181218.438:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 18:13:48.46 [8704:5460:0112/181348.460:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 18:16:34.17 [8704:5460:0112/181634.171:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 18:17:16.18 [8704:5460:0112/181716.183:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Jan 12, 2024 18:17:16.18 [8704:5460:0112/181716.187:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -109
+Jan 12, 2024 18:17:18.24 [8704:5460:0112/181718.242:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Jan 12, 2024 18:17:37.31 [8704:5460:0112/181737.308:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Jan 12, 2024 18:17:48.42 [8704:5460:0112/181748.423:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Jan 12, 2024 18:17:49.63 [8704:6804:0112/181749.632:ERROR:device_event_log_impl.cc(192)] [18:17:49.631] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 12, 2024 18:17:50.55 [8704:5460:0112/181750.550:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 18:30:34.06 [8704:5460:0112/183034.065:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Jan 12, 2024 20:24:40.29 [8704:5460:0112/202440.291:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Jan 12, 2024 20:24:42.35 [8704:5460:0112/202442.351:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 12, 2024 20:24:42.35 [8704:10384:0112/202442.351:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan 12, 2024 20:27:37.09 [8704:5460:0112/202737.095:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Jan 12, 2024 22:04:10.94 [8704:6804:0112/220410.900:ERROR:device_event_log_impl.cc(192)] [22:04:10.904] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 12, 2024 22:04:11.13 [8704:5460:0112/220411.137:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Jan 12, 2024 22:49:54.62 [8704:5460:0112/224954.626:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Jan 13, 2024 01:49:56.97 [8704:6804:0113/014956.934:ERROR:device_event_log_impl.cc(192)] [01:49:56.940] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 13, 2024 01:49:57.55 [8704:5460:0113/014957.550:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Jan 13, 2024 09:50:53.47 [8704:5460:0113/095053.476:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 13, 2024 09:50:53.72 [8704:5664:0113/095053.476:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Jan 13, 2024 09:51:37.04 [8704:5460:0113/095137.045:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Jan 13, 2024 09:51:39.79 [8704:5084:0113/095139.794:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NETWORK_CHANGED)
+Jan 13, 2024 09:51:43.95 [8704:5460:0113/095143.950:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Jan 13, 2024 09:51:43.96 [8704:5084:0113/095143.965:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Jan 13, 2024 09:51:48.13 [8704:5460:0113/095148.136:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Jan 13, 2024 09:51:49.23 [8704:6804:0113/095149.230:ERROR:device_event_log_impl.cc(192)] [09:51:49.241] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 13, 2024 09:51:50.16 [8704:5460:0113/095150.169:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 13, 2024 09:52:23.39 [8704:5460:0113/095223.390:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Jan 13, 2024 10:02:38.73 [8704:5460:0113/100238.734:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Jan 13, 2024 21:43:22.74 NEW SESSION
+Jan 13, 2024 21:43:22.74 [8804:5484:0113/214322.740:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Jan 13, 2024 22:07:27.95 [8804:1688:0113/220727.949:ERROR:device_event_log_impl.cc(192)] [22:07:27.949] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 13, 2024 22:07:29.03 [8804:5484:0113/220729.029:ERROR:connection_handler_impl.cc(472)] Timed out waiting for GCM Protocol buffer.
+Jan 13, 2024 22:07:29.03 [8804:5484:0113/220729.029:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -7
+
+Jan 16, 2024 21:57:24.07 NEW SESSION
+Jan 16, 2024 21:57:24.07 [6552:5036:0116/215724.049:ERROR:device_event_log_impl.cc(192)] [21:57:24.046] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jan 17, 2024 10:13:26.92 NEW SESSION
+Jan 17, 2024 10:13:26.92 [14632:3868:0117/101324.921:ERROR:device_event_log_impl.cc(192)] [10:13:24.917] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jan 17, 2024 19:14:03.01 NEW SESSION
+Jan 17, 2024 19:14:03.01 [8176:8060:0117/191400.852:ERROR:device_event_log_impl.cc(192)] [19:14:00.859] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 17, 2024 21:57:43.93 [8176:8060:0117/215743.852:ERROR:device_event_log_impl.cc(192)] [21:57:43.859] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jan 18, 2024 08:35:09.95 NEW SESSION
+Jan 18, 2024 08:35:09.95 [12184:6392:0118/083509.936:ERROR:device_event_log_impl.cc(192)] [08:35:09.941] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 18, 2024 09:42:09.86 [12184:6392:0118/094209.865:ERROR:device_event_log_impl.cc(192)] [09:42:09.872] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jan 19, 2024 12:33:47.84 NEW SESSION
+Jan 19, 2024 12:33:47.84 [12904:12792:0119/123347.813:ERROR:device_event_log_impl.cc(192)] [12:33:47.816] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Jan 31, 2024 08:08:59.34 NEW SESSION
+Jan 31, 2024 08:08:59.34 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Feb 05, 2024 19:31:39.83 NEW SESSION
+Feb 05, 2024 19:31:39.83 [2340:8652:0205/193139.815:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 05, 2024 21:10:57.54 [2340:8652:0205/211057.546:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 05, 2024 21:10:57.57 [2340:8652:0205/211057.577:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 05, 2024 21:10:58.00 [2340:3228:0205/211058.007:ERROR:device_event_log_impl.cc(192)] [21:10:58.010] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 05, 2024 21:11:00.58 [2340:8652:0205/211100.589:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 06, 2024 14:09:46.73 [2340:8652:0206/140946.730:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 06, 2024 14:09:47.19 [2340:9476:0206/140947.198:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Feb 06, 2024 14:09:50.28 [2340:8652:0206/140950.287:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 06, 2024 14:09:50.28 [2340:9476:0206/140950.287:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Feb 06, 2024 14:09:54.86 [2340:8652:0206/140954.867:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 06, 2024 14:09:54.86 [2340:12528:0206/140954.867:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+Feb 06, 2024 14:39:43.67 [2340:8652:0206/143943.678:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 06, 2024 17:39:48.00 [2340:3228:0206/173948.001:ERROR:device_event_log_impl.cc(192)] [17:39:47.958] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 06, 2024 17:39:48.42 [2340:8652:0206/173948.424:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 06, 2024 18:46:13.47 [2340:8652:0206/184613.472:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 06, 2024 18:46:13.86 [2340:7296:0206/184613.472:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+Feb 06, 2024 18:50:52.19 [2340:8652:0206/185052.190:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 06, 2024 19:00:52.74 [2340:8652:0206/190052.744:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 06, 2024 19:01:19.19 [2340:8652:0206/190119.197:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 06, 2024 19:03:20.52 [2340:8652:0206/190320.505:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 06, 2024 19:03:31.85 [2340:3228:0206/190331.855:ERROR:device_event_log_impl.cc(192)] [19:03:31.861] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 06, 2024 19:03:34.93 [2340:8652:0206/190334.936:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 06, 2024 19:05:08.82 [2340:8652:0206/190508.820:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 06, 2024 19:05:57.86 [2340:3228:0206/190557.866:ERROR:device_event_log_impl.cc(192)] [19:05:57.871] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 06, 2024 19:59:16.05 [2340:8652:0206/195916.056:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 06, 2024 19:59:44.72 [2340:8652:0206/195944.728:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 06, 2024 20:07:02.45 [2340:8652:0206/200702.455:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 06, 2024 20:56:20.92 [2340:3228:0206/205620.924:ERROR:device_event_log_impl.cc(192)] [20:56:20.927] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 06, 2024 20:56:23.28 [2340:8652:0206/205623.288:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 06, 2024 20:56:47.24 [2340:8652:0206/205647.243:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 06, 2024 20:57:44.83 [2340:8652:0206/205744.836:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 06, 2024 20:57:49.06 [2340:8652:0206/205749.069:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 06, 2024 20:57:58.85 [2340:8652:0206/205758.857:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 06, 2024 22:25:38.38 [2340:8652:0206/222538.381:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 06, 2024 23:26:41.96 [2340:3228:0206/232641.960:ERROR:device_event_log_impl.cc(192)] [23:26:41.966] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 06, 2024 23:26:42.79 [2340:8652:0206/232642.790:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+
+Feb 08, 2024 17:05:57.13 NEW SESSION
+Feb 08, 2024 17:05:57.13 [12396:8232:0208/170557.105:ERROR:device_event_log_impl.cc(192)] [17:05:57.105] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 08, 2024 17:13:53.76 [12396:7252:0208/171353.763:ERROR:cert_verify_proc_builtin.cc(766)] CertVerifyProcBuiltin for bidder.7xbid.com failed:
+Feb 08, 2024 17:13:53.76 ----- Certificate i=0 (CN=*.7xbid.com) -----
+Feb 08, 2024 17:13:53.76 ERROR: Time is after notAfter
+Feb 08, 2024 17:13:53.76 
+Feb 08, 2024 17:13:53.76 
+Feb 08, 2024 19:34:15.97 [7128:6864:0208/193415.958:ERROR:device_event_log_impl.cc(192)] [19:34:15.967] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 08, 2024 19:44:11.87 [7128:6864:0208/194411.878:ERROR:device_event_log_impl.cc(192)] [19:44:11.882] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 08, 2024 21:25:35.00 [7128:6864:0208/212535.004:ERROR:device_event_log_impl.cc(192)] [21:25:35.005] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Feb 10, 2024 20:18:17.94 NEW SESSION
+Feb 10, 2024 20:18:17.94 [3084:13280:0210/201817.940:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 10, 2024 21:48:28.93 [3084:5820:0210/214828.935:ERROR:device_event_log_impl.cc(192)] [21:48:28.933] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 10, 2024 21:48:34.24 [3084:13280:0210/214834.243:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 10, 2024 21:48:40.80 [3084:13280:0210/214840.804:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 10, 2024 22:51:08.21 [3084:13280:0210/225108.215:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 10, 2024 23:06:49.41 [3084:13280:0210/230649.419:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 10, 2024 23:06:49.67 [3084:5820:0210/230649.674:ERROR:device_event_log_impl.cc(192)] [23:06:49.668] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 10, 2024 23:06:53.61 [3084:13280:0210/230653.618:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 10, 2024 23:29:47.69 [3084:13280:0210/232947.694:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 10, 2024 23:30:17.01 [3084:13280:0210/233017.019:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 10, 2024 23:30:57.38 [3084:13280:0210/233057.387:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+Feb 11, 2024 15:43:04.62 NEW SESSION
+Feb 11, 2024 15:43:04.62 [8008:15300:0211/154304.623:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 11, 2024 16:54:21.97 [8008:5192:0211/165421.932:ERROR:device_event_log_impl.cc(192)] [16:54:21.931] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 11, 2024 16:54:22.25 [8008:15300:0211/165422.257:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 11, 2024 16:54:25.35 [8008:15300:0211/165425.355:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 11, 2024 17:06:19.68 [8008:15300:0211/170619.683:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 11, 2024 17:06:20.84 [8008:5192:0211/170620.846:ERROR:device_event_log_impl.cc(192)] [17:06:20.846] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 11, 2024 17:06:21.74 [8008:15300:0211/170621.748:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 11, 2024 17:21:55.92 [8008:5192:0211/172155.925:ERROR:gpu_process_host.cc(992)] GPU process exited unexpectedly: exit_code=34
+Feb 11, 2024 17:24:04.26 [8008:5192:0211/172404.263:ERROR:sharing_service.cc(250)] Device un-registration failed with fatal error
+Feb 11, 2024 19:22:34.23 [13572:10632:0211/192234.236:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 11, 2024 19:22:58.66 [13572:10632:0211/192258.669:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 11, 2024 19:31:33.55 [13572:10632:0211/193133.550:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 11, 2024 20:52:17.01 [13572:13836:0211/205217.010:ERROR:device_event_log_impl.cc(192)] [20:52:17.017] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 11, 2024 20:52:17.75 [13572:10632:0211/205217.735:ERROR:connection_handler_impl.cc(472)] Timed out waiting for GCM Protocol buffer.
+Feb 11, 2024 20:52:17.75 [13572:10632:0211/205217.735:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -7
+
+Feb 12, 2024 13:15:12.54 NEW SESSION
+Feb 12, 2024 13:15:12.55 [5688:10960:0212/131512.541:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+Feb 12, 2024 13:29:50.84 [5688:10960:0212/132950.842:ERROR:device_event_log_impl.cc(192)] [13:29:50.845] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 12, 2024 15:32:14.07 [5688:10960:0212/153214.040:ERROR:device_event_log_impl.cc(192)] [15:32:14.043] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 12, 2024 16:12:35.77 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 12, 2024 18:02:53.92 [12524:3324:0212/180253.923:ERROR:device_event_log_impl.cc(192)] [18:02:53.921] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Feb 13, 2024 19:19:46.64 NEW SESSION
+Feb 13, 2024 19:19:46.64 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 13, 2024 20:00:45.04 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Feb 14, 2024 10:54:56.10 NEW SESSION
+Feb 14, 2024 10:54:56.10 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Feb 15, 2024 14:22:04.83 NEW SESSION
+Feb 15, 2024 14:22:04.83 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Feb 15, 2024 15:17:19.33 NEW SESSION
+Feb 15, 2024 15:17:19.33 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 15, 2024 15:38:57.89 [3392:8180:0215/153857.895:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 15, 2024 15:39:20.51 [3392:8180:0215/153920.519:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 15, 2024 15:40:11.58 [3392:8180:0215/154011.584:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 15, 2024 18:47:11.91 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 15, 2024 20:22:52.26 [7380:9736:0215/202252.263:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 15, 2024 20:54:54.89 [7380:3540:0215/205454.893:ERROR:device_event_log_impl.cc(192)] [20:54:54.898] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 15, 2024 20:54:57.30 [7380:9736:0215/205457.309:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 15, 2024 20:54:57.35 [7380:9736:0215/205457.355:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 15, 2024 21:27:41.84 [7380:3540:0215/212741.843:ERROR:device_event_log_impl.cc(192)] [21:27:41.848] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Feb 16, 2024 15:24:56.22 NEW SESSION
+Feb 16, 2024 15:24:56.23 [8208:2896:0216/152456.226:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 16, 2024 15:24:57.20 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 16, 2024 15:25:19.47 [8208:2896:0216/152519.477:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 16, 2024 15:26:16.83 [8208:2896:0216/152616.837:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 16, 2024 15:27:38.62 [8208:2896:0216/152738.624:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 16, 2024 15:43:26.54 [8208:2896:0216/154326.544:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 16, 2024 17:19:18.04 [8208:11896:0216/171918.006:ERROR:device_event_log_impl.cc(192)] [17:19:18.006] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 16, 2024 17:19:19.98 [8208:2896:0216/171919.984:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 16, 2024 17:19:20.01 [8208:7748:0216/171920.019:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+
+Feb 16, 2024 19:24:43.03 NEW SESSION
+Feb 16, 2024 19:24:43.03 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Feb 16, 2024 19:54:03.86 NEW SESSION
+Feb 16, 2024 19:54:03.86 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Feb 18, 2024 17:23:18.02 NEW SESSION
+Feb 18, 2024 17:23:18.02 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 18, 2024 18:06:11.53 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 18, 2024 18:27:58.21 [11664:6200:0218/182758.217:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 18, 2024 20:58:35.88 [11664:12524:0218/205835.886:ERROR:device_event_log_impl.cc(192)] [20:58:35.886] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 18, 2024 20:58:36.21 [11664:6200:0218/205836.217:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 18, 2024 20:58:39.33 [11664:6200:0218/205839.334:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 18, 2024 20:59:02.30 [11664:6200:0218/205902.308:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 18, 2024 20:59:21.44 [11664:6200:0218/205921.444:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 18, 2024 20:59:25.42 [11664:6200:0218/205925.428:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 18, 2024 20:59:41.28 [11664:6200:0218/205941.287:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 18, 2024 20:59:47.33 [11664:6200:0218/205947.333:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 18, 2024 21:01:00.37 [11664:6200:0218/210100.374:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 18, 2024 21:01:04.80 [11664:6200:0218/210104.801:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 18, 2024 21:05:31.07 [11664:12524:0218/210531.069:ERROR:sharing_service.cc(250)] Device un-registration failed with fatal error
+Feb 18, 2024 21:37:01.57 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 18, 2024 21:55:34.79 [14044:9484:0218/215534.790:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 18, 2024 22:02:50.30 [14044:9484:0218/220250.301:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 18, 2024 22:11:35.08 [14044:9484:0218/221135.082:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 18, 2024 22:20:44.07 [14044:9484:0218/222044.074:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 18, 2024 22:20:47.42 [14044:9484:0218/222047.420:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 18, 2024 23:50:32.74 [14044:9484:0218/235032.746:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 18, 2024 23:51:05.49 [14044:9484:0218/235105.492:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 18, 2024 23:55:14.43 [14044:9484:0218/235514.434:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 18, 2024 23:56:14.69 [14044:9484:0218/235614.693:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 19, 2024 24:01:26.86 [14044:9484:0219/000126.864:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 19, 2024 24:01:47.66 [14044:9484:0219/000147.666:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 19, 2024 24:02:40.49 [14044:9484:0219/000240.489:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 19, 2024 24:06:57.15 [14044:9484:0219/000657.155:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 19, 2024 24:07:02.28 [14044:9484:0219/000702.284:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 19, 2024 24:39:27.97 [14044:9484:0219/003927.972:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 19, 2024 24:39:52.27 [14044:9484:0219/003952.272:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 19, 2024 24:40:40.86 [14044:9484:0219/004040.868:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 19, 2024 24:42:16.12 [14044:9484:0219/004216.121:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Feb 20, 2024 12:22:52.54 NEW SESSION
+Feb 20, 2024 12:22:52.54 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 20, 2024 12:58:52.96 [3836:13380:0220/125852.966:ERROR:device_event_log_impl.cc(192)] [12:58:52.966] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 20, 2024 14:43:44.02 [3836:13380:0220/144343.979:ERROR:device_event_log_impl.cc(192)] [14:43:43.982] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 20, 2024 14:47:22.11 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 20, 2024 18:10:39.37 [12604:13200:0220/181039.372:ERROR:device_event_log_impl.cc(192)] [18:10:39.357] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Feb 21, 2024 13:30:25.66 NEW SESSION
+Feb 21, 2024 13:30:25.66 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Feb 21, 2024 13:37:03.37 NEW SESSION
+Feb 21, 2024 13:37:03.37 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 21, 2024 15:03:33.02 [9304:9424:0221/150332.925:ERROR:device_event_log_impl.cc(192)] [15:03:32.925] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 21, 2024 15:28:07.89 [9304:9424:0221/152807.891:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+Feb 24, 2024 12:09:56.77 NEW SESSION
+Feb 24, 2024 12:09:56.77 [2552:5600:0224/120956.771:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 24, 2024 12:09:56.77 [2552:5600:0224/120956.772:ERROR:checkin_request.cc(243)] Check-in request got net error: -106
+Feb 24, 2024 12:09:57.88 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 24, 2024 12:10:17.44 [2552:5600:0224/121017.440:ERROR:checkin_request.cc(243)] Check-in request got net error: -106
+
+Feb 24, 2024 13:40:29.63 NEW SESSION
+Feb 24, 2024 13:40:29.63 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Feb 24, 2024 14:58:20.78 NEW SESSION
+Feb 24, 2024 14:58:20.78 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 24, 2024 14:59:51.15 [9692:6928:0224/145951.157:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 24, 2024 15:01:07.86 [9692:11892:0224/150107.860:ERROR:device_event_log_impl.cc(192)] [15:01:07.859] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Feb 24, 2024 15:30:12.79 NEW SESSION
+Feb 24, 2024 15:30:12.80 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 24, 2024 15:38:51.72 [944:9800:0224/153851.728:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 24, 2024 18:38:54.97 [944:5084:0224/183854.947:ERROR:device_event_log_impl.cc(192)] [18:38:54.946] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 24, 2024 18:38:55.37 [944:9800:0224/183855.373:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 24, 2024 21:39:35.03 [944:9800:0224/213935.017:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 24, 2024 21:39:35.07 [944:11840:0224/213935.073:ERROR:get_updates_processor.cc(263)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+
+Feb 25, 2024 14:27:47.31 NEW SESSION
+Feb 25, 2024 14:27:47.31 [1456:5052:0225/142747.315:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 25, 2024 14:27:48.36 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 25, 2024 14:28:14.86 [1456:5052:0225/142814.866:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 25, 2024 14:29:04.21 [1456:5052:0225/142904.210:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 25, 2024 14:30:33.88 [1456:5052:0225/143033.880:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 25, 2024 14:32:24.74 [1456:5052:0225/143224.748:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 25, 2024 14:34:02.54 [1456:5052:0225/143402.549:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 25, 2024 14:40:48.11 [1456:5052:0225/144048.110:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 25, 2024 14:43:31.95 [1456:5052:0225/144331.953:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 25, 2024 14:56:30.04 [1456:5052:0225/145630.049:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 25, 2024 14:56:39.79 [1456:5052:0225/145639.794:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 25, 2024 14:57:25.19 [1456:5052:0225/145725.193:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 25, 2024 14:57:27.20 [1456:5052:0225/145727.206:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Feb 25, 2024 22:03:58.15 NEW SESSION
+Feb 25, 2024 22:03:58.15 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 25, 2024 22:35:59.53 [5284:1068:0225/223559.536:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 25, 2024 22:36:28.74 [5284:1068:0225/223628.741:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 25, 2024 22:37:13.65 [5284:1068:0225/223713.659:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 25, 2024 22:38:42.38 [5284:1068:0225/223842.389:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 25, 2024 22:42:37.72 [5284:1068:0225/224237.724:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 25, 2024 22:48:47.05 [5284:1068:0225/224847.058:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 25, 2024 22:56:44.57 [5284:1068:0225/225644.573:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 25, 2024 23:00:21.37 [5284:1068:0225/230021.374:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 25, 2024 23:00:45.49 [5284:1068:0225/230045.495:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+
+Feb 25, 2024 23:27:41.42 NEW SESSION
+Feb 25, 2024 23:27:41.42 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Feb 26, 2024 13:45:57.16 NEW SESSION
+Feb 26, 2024 13:45:57.16 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 26, 2024 13:46:37.96 [0226/134637.937:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\57e1c02c-7470-4e45-bd30-39b89d908543: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:37.97 [0226/134637.939:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\ae48c18f-fb8f-4887-9e13-0a4a54d492cb: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:37.97 [0226/134637.940:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\71799510-f299-41ce-8835-31b1d433c9a3: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:37.97 [0226/134637.940:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\43836d93-11aa-44dc-8008-ea3084bb6e7a: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:37.97 [0226/134637.941:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\90f1de54-6213-4d2f-bb7c-aa26e7474bc5: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:37.97 [0226/134637.942:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\cc35b5a0-380e-4331-838b-6d5c1222b190: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:37.97 [0226/134637.942:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\b871f774-95c8-42dc-8cf7-eec187e52dbd: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:37.97 [0226/134637.943:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\32c1375a-da35-4469-be71-e6684ca73429: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:37.97 [0226/134637.945:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\57e1c02c-7470-4e45-bd30-39b89d908543: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:37.97 [0226/134637.946:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\ae48c18f-fb8f-4887-9e13-0a4a54d492cb: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:38.02 [0226/134637.959:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\71799510-f299-41ce-8835-31b1d433c9a3: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:38.03 [0226/134637.960:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\43836d93-11aa-44dc-8008-ea3084bb6e7a: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:38.06 [0226/134637.961:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\90f1de54-6213-4d2f-bb7c-aa26e7474bc5: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:38.06 [0226/134637.962:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\cc35b5a0-380e-4331-838b-6d5c1222b190: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:38.06 [0226/134637.967:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\b871f774-95c8-42dc-8cf7-eec187e52dbd: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:38.06 [0226/134637.969:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\32c1375a-da35-4469-be71-e6684ca73429: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.67 [0226/134653.615:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\57e1c02c-7470-4e45-bd30-39b89d908543: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.68 [0226/134653.617:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\ae48c18f-fb8f-4887-9e13-0a4a54d492cb: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.68 [0226/134653.619:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\71799510-f299-41ce-8835-31b1d433c9a3: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.69 [0226/134653.623:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\43836d93-11aa-44dc-8008-ea3084bb6e7a: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.69 [0226/134653.627:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\90f1de54-6213-4d2f-bb7c-aa26e7474bc5: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.69 [0226/134653.628:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\cc35b5a0-380e-4331-838b-6d5c1222b190: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.69 [0226/134653.631:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\b871f774-95c8-42dc-8cf7-eec187e52dbd: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.69 [0226/134653.633:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\32c1375a-da35-4469-be71-e6684ca73429: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.69 [0226/134653.636:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\57e1c02c-7470-4e45-bd30-39b89d908543: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.69 [0226/134653.638:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\ae48c18f-fb8f-4887-9e13-0a4a54d492cb: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.69 [0226/134653.640:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\71799510-f299-41ce-8835-31b1d433c9a3: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.69 [0226/134653.641:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\43836d93-11aa-44dc-8008-ea3084bb6e7a: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.70 [0226/134653.642:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\90f1de54-6213-4d2f-bb7c-aa26e7474bc5: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.70 [0226/134653.644:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\cc35b5a0-380e-4331-838b-6d5c1222b190: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.70 [0226/134653.645:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\b871f774-95c8-42dc-8cf7-eec187e52dbd: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:53.70 [0226/134653.646:ERROR:filesystem_win.cc(128)] GetFileAttributes C:\Users\Dell\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\32c1375a-da35-4469-be71-e6684ca73429: The system cannot find the file specified. (0x2)
+Feb 26, 2024 13:46:54.30 [11116:1596:0226/134654.299:ERROR:sharing_service.cc(250)] Device un-registration failed with fatal error
+
+Feb 26, 2024 22:20:29.02 NEW SESSION
+Feb 26, 2024 22:20:29.02 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Feb 27, 2024 07:26:56.33 NEW SESSION
+Feb 27, 2024 07:26:56.33 [11316:9560:0227/072656.328:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 27, 2024 07:26:57.35 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Feb 27, 2024 07:27:19.74 [11316:9560:0227/072719.738:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 27, 2024 07:27:34.66 [11316:9560:0227/072734.659:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Feb 27, 2024 08:32:31.39 [11316:9560:0227/083231.398:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 27, 2024 09:42:50.51 [11316:12120:0227/094250.517:ERROR:device_event_log_impl.cc(192)] [09:42:50.501] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Feb 27, 2024 09:42:51.66 [11316:9560:0227/094251.663:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Feb 27, 2024 09:43:18.06 [11316:9560:0227/094318.065:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106

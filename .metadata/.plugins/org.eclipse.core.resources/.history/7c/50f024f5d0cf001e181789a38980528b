@@ -1,0 +1,281 @@
+<%@ include file="header.jsp" %>
+<%@ include file="connection.jsp" %>
+<%@ page import="java.sql.*" %>
+<%! int Id; %>
+
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Product Detail</title>
+</head>
+<body>
+
+
+<section class="py-5">
+        <div class="container bg-light py-5">
+
+            <div class="row py-3">
+                <div class="col text-center">
+                    <h3>Full Details</h3>
+                    <span class="line"></span>
+                </div>
+            </div>
+            
+            
+             <%
+                String proid=request.getParameter("proid");
+                try{
+                    Statement st=con.createStatement();
+                    ResultSet rs,rsc;
+                    rs=st.executeQuery("SELECT * FROM product INNER JOIN category ON product.cat_id=category.cat_id WHERE pro_id='"+proid+"'");
+                    while(rs.next())
+                    {
+                        Id=rs.getInt("pro_id");
+  
+                        %>
+
+                <div class="row m-5 ">
+                    <div class="col justify-content-around">
+                        <div class="card ms-auto ">
+
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <h3>Product Id: <% out.print(rs.getString("pro_id")); %></h3>
+                                    </div>
+                                   <div class="col-2 text-end">
+                                      <a href="deleteAdminproduct.jsp?id=<%= Id%>"><i class="fa-solid fa-trash"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5>Service :</h5>
+                                    </div>
+                                    <div class="col-6"> 
+                                       <h5><?php echo $row[34]; ?></h5>
+                                    </div>
+                                    <div class="col-4">
+                                         <h5>Maid name :</h5>
+                                    </div>
+                                    <div class="col-6"> 
+                                        <h5><?php echo $row[17]; ?></h5>
+                                    </div>
+                                    <!-- Common Question Answer start -->
+                                    <?php
+                                    $comans = explode(",", $row[2]);
+                                    $comvalQ = "SELECT * FROM commonquestion";
+                                    $comvalR = mysqli_query($con, $comvalQ); ?>
+
+
+                                    <div class="col-4">
+                                        <?php
+                                        while ($comvalrow = mysqli_fetch_array($comvalR)) { ?>
+                                            <div class="row">
+                                                <h5><?php echo $comvalrow[1]; ?> : </h5>
+                                            </div>
+                                        <?php } ?>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <?php
+                                        for ($i = 0; $i < count($comans); $i++) { ?>
+                                            <div class="row">
+                                                <h5> <?php echo $comans[$i]; ?></h5>
+                                            </div>
+                                        <?php }
+                                        ?>
+                                    </div>
+                                </div>
+                                <!-- Common Question Answer End -->
+
+                                <!-- Specific Question Answer start -->
+                                <?php
+                                $serid = $row[15];
+
+                                $speans = explode(",", $row[4]);
+                                $spevalQ = "SELECT * FROM specificquestion WHERE service_Id=$serid";
+                                $spevalR = mysqli_query($con, $spevalQ); ?>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <?php
+                                        while ($spevalrow = mysqli_fetch_array($spevalR)) { ?>
+                                            <div class="row">
+                                                <h5><?php echo $spevalrow[1]; ?> : </h5>
+                                            </div>
+                                        <?php } ?>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <?php
+                                        for ($i = 0; $i < count($speans); $i++) { ?>
+                                            <div class="row">
+                                                <h5> <?php echo $speans[$i]; ?></h5>
+                                            </div>
+                                        <?php }
+                                        ?>
+                                    </div>
+                                </div>
+                            
+                                <?php if($row[13]=="Done"){?>
+                                    <div class="row">
+                                        <div class="col-4"><h5> Paid Amount: </h5></div>   
+                                        <div class="col-6"><h5><?php echo $row[14];?></h5></div>
+                                    </div>
+                                <?php } ?>
+                            </div>
+                            
+                            <div class="card-footer">
+                                <?php
+                                if($row[13] == "approved" || $row[13] == "Done")
+                                {
+                                    echo "confirm";
+                                }
+                                else{?>
+                                <form method="post" class="text-end" action="./updatebookstatus.php">
+                                    <input type="hidden" name="id" value="<?php echo $id; ?>" />
+                                    <input type="hidden" name="status" value="approved" />
+                                    <input type="submit" class="btn btn-primary btn-lg" value="approved" />
+                                </form>
+                                <?php } ?>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            <?php } ?>
+            
+             <%  
+            }
+            }catch(Exception e){
+            
+        } %>
+            
+            
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="d-flex justify-content-center align-items-center m-1">
+        <div class="container  py-3">
+            <div class="row g-3">
+                <%
+                String proid=request.getParameter("proid");
+                try{
+                    Statement st=con.createStatement();
+                    ResultSet rs,rsc;
+                    rs=st.executeQuery("SELECT * FROM product INNER JOIN category ON product.cat_id=category.cat_id WHERE pro_id='"+proid+"'");
+                    while(rs.next())
+                    {
+                        Id=rs.getInt("pro_id");
+  
+                        %>
+                <div class="col-3">
+                    <div class="card w-100 h-100 border-dark" >
+                        <img src="../images/<%out.print(rs.getString("image")); %>" class="card-img-top p-2"   height="150px">
+    
+                        
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">ID : <% out.print(rs.getInt("pro_id")); %></li>
+                            <li class="list-group-item">Name : <% out.print(rs.getString("pro_name")); %></li>
+                            <li class="list-group-item">Details : <% out.print(rs.getString("pro_details")); %></li>
+                            <li class="list-group-item">Author : <% out.print(rs.getString("author")); %></li>
+                            <li class="list-group-item">Publisher : <% out.print(rs.getString("publisher")); %></li>
+                            <li class="list-group-item">Price : <% out.print(rs.getInt("pro_price")); %></li>
+                            <li class="list-group-item">Quantity : <% out.print(rs.getInt("pro_quantity")); %></li>
+                            <li class="list-group-item">Sale : <% out.print(rs.getInt("sale")); %></li>
+                            <li class="list-group-item">Date : <% out.print(rs.getString("date")); %></li>
+                            <li class="list-group-item">Category : <% out.print(rs.getString("cat_name")); %></li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="updateAdminproduct.jsp?id=<%= Id%>" class="card-link">Update</a>
+                            <a href="deleteAdminproduct.jsp?id=<%= Id%>" class="card-link"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <%  
+            }
+            }catch(Exception e){
+            
+        } %>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

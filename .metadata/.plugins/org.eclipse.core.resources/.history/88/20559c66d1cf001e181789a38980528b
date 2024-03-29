@@ -1,0 +1,157 @@
+<%@ include file="header.jsp" %>
+<%@ include file="connection.jsp" %>
+<%@ page import="java.sql.*" %>
+<%! int Id; %>
+<%
+Statement st=con.createStatement();
+ResultSet rs,rsc;
+%>
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Product Detail</title>
+</head>
+<body>
+
+
+<section class="py-5">
+        <div class="container bg-light py-5">
+
+            <div class="row py-3">
+                <div class="col text-center">
+                    <h3>Full Details</h3>
+                    <span class="line"></span>
+                </div>
+            </div>
+            
+            
+             <%
+                String proid=request.getParameter("proid");
+                try{
+                   
+                    rs=st.executeQuery("SELECT * FROM product INNER JOIN category ON product.cat_id=category.cat_id WHERE pro_id='"+proid+"'");
+                    while(rs.next())
+                    {
+                        Id=rs.getInt("pro_id");
+  
+                        %>
+
+                <div class="row m-5 ">
+                    <div class="col justify-content-around">
+                        <div class="card ms-auto ">
+
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <h3>Product Id: <% out.print(rs.getString("pro_id")); %></h3>
+                                    </div>
+                                   <div class="col-2 text-end">
+                                      <a href="deleteAdminproduct.jsp?id=<%= Id%>"><i class="fa-solid fa-trash"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5>Service :</h5>
+                                    </div>
+                                    <div class="col-6"> 
+                                       <h5><?php echo $row[34]; ?></h5>
+                                    </div>
+                                    <div class="col-4">
+                                         <h5>Maid name :</h5>
+                                    </div>
+                                    <div class="col-6"> 
+                                        <h5><?php echo $row[17]; ?></h5>
+                                    </div>
+                                    <!-- Common Question Answer start -->
+                                    <?php
+                                    $comans = explode(",", $row[2]);
+                                    $comvalQ = "SELECT * FROM commonquestion";
+                                    $comvalR = mysqli_query($con, $comvalQ); ?>
+
+
+                                    <div class="col-4">
+                                        <?php
+                                        while ($comvalrow = mysqli_fetch_array($comvalR)) { ?>
+                                            <div class="row">
+                                                <h5><?php echo $comvalrow[1]; ?> : </h5>
+                                            </div>
+                                        <?php } ?>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <?php
+                                        for ($i = 0; $i < count($comans); $i++) { ?>
+                                            <div class="row">
+                                                <h5> <?php echo $comans[$i]; ?></h5>
+                                            </div>
+                                        <?php }
+                                        ?>
+                                    </div>
+                                </div>
+                                <!-- Common Question Answer End -->
+
+                                <!-- Specific Question Answer start -->
+                                <?php
+                                $serid = $row[15];
+
+                                $speans = explode(",", $row[4]);
+                                $spevalQ = "SELECT * FROM specificquestion WHERE service_Id=$serid";
+                                $spevalR = mysqli_query($con, $spevalQ); ?>
+
+                                <div class="row">
+                                    <div class="col-4">
+                                        <?php
+                                        while ($spevalrow = mysqli_fetch_array($spevalR)) { ?>
+                                            <div class="row">
+                                                <h5><?php echo $spevalrow[1]; ?> : </h5>
+                                            </div>
+                                        <?php } ?>
+
+                                    </div>
+                                    <div class="col-6">
+                                        <?php
+                                        for ($i = 0; $i < count($speans); $i++) { ?>
+                                            <div class="row">
+                                                <h5> <?php echo $speans[$i]; ?></h5>
+                                            </div>
+                                        <?php }
+                                        ?>
+                                    </div>
+                                </div>
+                            
+                                <?php if($row[13]=="Done"){?>
+                                    <div class="row">
+                                        <div class="col-4"><h5> Paid Amount: </h5></div>   
+                                        <div class="col-6"><h5><?php echo $row[14];?></h5></div>
+                                    </div>
+                                <?php } ?>
+                            </div>
+                            
+                            <div class="card-footer">                         
+                                    <a href="" class="btn btn-primary btn-lg">Update</a>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            <?php } ?>
+            
+             <%  
+            }
+            }catch(Exception e){
+            
+        } %>
+            
+            
+            
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<%@ include file="header.jsp" %>
+<%@ include file="connection.jsp" %>
+<%@ page import="java.sql.*" %>
+<%! int Id; %>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+</head>
+
+<body>
+
+    <section id="FeedbacklistSection" class="mt-4">
+        <div class="container d-flex justify-content-center">
+            <h1 class="m-auto">Product</h1>
+        </div>
+    </section>
+    <div class="d-flex justify-content-center align-items-center mt-5 mb-5">
+        <a class="btn btn-dark w-25" href="adminaddproduct.jsp">Add Book</a>
+    </div>
+
+
+     <section>
+    <div class="container p-5 bg-light">
+      <div class="row py-3 g-3">
+        <div class="col text-center">
+          <h3>Order Booking</h3>
+        </div>
+      </div>
+      <div class="row p-3">
+       <%
+       
+       try{
+           Statement st=con.createStatement();
+           ResultSet rs,rsc;
+           rs=st.executeQuery("SELECT * FROM product INNER JOIN category ON product.cat_id=category.cat_id");
+           while(rs.next())
+           {
+               Id=rs.getInt("pro_id");
+
+       
+       
+       %>
+       
+          <div class="col-6 p-2">
+            <div class="card">
+              <div class="card-header">
+
+                <h4>
+                     <% out.print(rs.getString("pro_id")); %>
+                </h4>
+              </div>
+              <div class="row p-3">
+              <div class="col-md-4">
+         <img src="../images/<%out.print(rs.getString("image")); %>" class="rounded-start" height="150px" alt="...">
+          </div>
+    <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h6>Service: <?php echo $row[31]; ?></h6>
+                
+                
+                <p class="card-text">Booking Date: <?php echo date('d/m/Y', strtotime($row[12])) ;?></p>
+                <p class="card-text">Maid: <?php echo $row[17]; ?></p>
+                <a href="./bookingfulldetails.php?bookingid=<?php echo $row[0]; ?>">Details</a>
+              </div>
+  </div>
+  </div>
+            </div>
+
+          </div>
+        
+        
+        <% }  }catch(Exception e){
+            
+        } %>
+      </div>
+
+    </div>
+  </section>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    <div class="d-flex justify-content-center align-items-center m-1">
+        <div class="container  py-3">
+            <div class="row g-3">
+                <%
+                try{
+                    Statement st=con.createStatement();
+                    ResultSet rs,rsc;
+                    rs=st.executeQuery("SELECT * FROM product INNER JOIN category ON product.cat_id=category.cat_id");
+                    while(rs.next())
+                    {
+                        Id=rs.getInt("pro_id");
+  
+                        %>
+                <div class="col-3">
+                    <div class="card w-100 h-100 border-dark" >
+                        <img src="../images/<%out.print(rs.getString("image")); %>" class="card-img-top p-2"   height="150px">
+    
+                        
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">ID : <% out.print(rs.getInt("pro_id")); %></li>
+                            <li class="list-group-item">Name : <% out.print(rs.getString("pro_name")); %></li>
+                            <li class="list-group-item">Details : <% out.print(rs.getString("pro_details")); %></li>
+                            <li class="list-group-item">Author : <% out.print(rs.getString("author")); %></li>
+                            <li class="list-group-item">Publisher : <% out.print(rs.getString("publisher")); %></li>
+                            <li class="list-group-item">Price : <% out.print(rs.getInt("pro_price")); %></li>
+                            <li class="list-group-item">Quantity : <% out.print(rs.getInt("pro_quantity")); %></li>
+                            <li class="list-group-item">Sale : <% out.print(rs.getInt("sale")); %></li>
+                            <li class="list-group-item">Date : <% out.print(rs.getString("date")); %></li>
+                            <li class="list-group-item">Category : <% out.print(rs.getString("cat_name")); %></li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="updateAdminproduct.jsp?id=<%= Id%>" class="card-link">Update</a>
+                            <a href="deleteAdminproduct.jsp?id=<%= Id%>" class="card-link"><i class="fa-solid fa-trash"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <%  
+            }
+            }catch(Exception e){
+            
+        } %>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
+<%@ include file="footer.jsp" %>

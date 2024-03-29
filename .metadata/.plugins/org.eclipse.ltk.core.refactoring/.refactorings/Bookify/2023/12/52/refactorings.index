@@ -1,0 +1,7 @@
+1703876391294	Rename resource 'db_login.jsp'
+1703876572812	Rename resource 'admindb_login.jsp'
+1703931055056	Delete element
+1703931124219	Move 'connection.jsp' to 'admin'
+1703931131393	Move 'connection.jsp' to 'WebContent'
+1703935860303	Rename resource 'Contcat.jsp'
+1703959846745	Move 'admincategory.jsp' to 'admin'

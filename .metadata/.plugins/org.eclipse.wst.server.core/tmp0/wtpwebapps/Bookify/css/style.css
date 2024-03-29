@@ -1,0 +1,311 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+/* navbar */
+
+
+.navbar-brand {
+
+  margin: 0px 0px 0px 15px;
+  text-align: center;
+  font-family: Dancing script;
+  font-size: 40px;
+
+}
+
+.navbar .navbar-nav .nav-item a {
+
+  padding: 15px;
+  font-size: medium;
+  color: black;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+  color: white;
+  border-radius: 5px;
+  background-color: #A4161A;
+}
+
+.navbar .navbar-nav {
+  padding: 10px;
+
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* navbar end */
+/*  second slider */
+ .img-carousel {
+  height: 400px;
+
+}
+
+.carousel-item {
+  height: 400px;
+
+}
+
+/* .carousel-caption {
+  text-align: right;
+
+  padding-bottom: 0px;
+}  */
+
+/* line all place */
+.line {
+  width: 110px;
+  height: 3px;
+  background-color:  black;
+  display: inline-block;
+}
+
+#homepart2
+{
+  height: 300px;
+  width: 300px;
+}
+.threebtn
+{
+  width: 300px;
+  
+}
+/* #section-one {
+  padding-top: 50px;
+  padding-bottom: 50px
+}
+
+#section-one a {
+  text-decoration: none;
+  color: black;
+
+}
+
+#section-one a:hover {
+  color: black;
+  font-size: xx-large;
+  font-weight: 800;
+} */
+
+
+/* image over words */
+/* #section-two {
+  position: relative;
+  min-height: 200px;
+  background: url(../images/working.jpg);
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+} */
+
+
+
+/* every page header start */
+/* #page-name {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: #884A39;
+  color: white;
+
+} */
+
+/* every page header end */
+/* contact us page start */
+/* #contact-section .row .col {
+  border: 1px solid rgb(213, 208, 208);
+  font-size: medium;
+}
+
+#contact-section .row .col h1 {
+  font-size: x-large; */
+
+  /* font-weight: 500; */
+/* } */
+
+/* .contact-section h1 {
+
+  color: #884A39;
+  font-family: serif;
+
+}
+
+.option1 {
+  color: #884A39;
+
+
+}
+
+.contact-form {
+
+  padding-left: 25px;
+  padding-right: 25px;
+
+} */
+
+
+/* contact us page end */
+
+/*  maids image about page strat */
+/* #maids img {
+  height: 90%;
+  width: 90%;
+  border: 2px solid black;
+
+}
+
+.maids-gallery {
+  margin: 20px 100px 50px 100px;
+} */
+
+/* maid page about end */
+/* user review start */
+/* #carouselExample .img-wrapper {
+  height: 200px;
+  width: 100%;
+}
+
+#carouselExample img {
+  height: 100%;
+  width: 100%;
+}
+
+#carouselExample .card {
+  width: 300px;
+  height: 400px;
+} */
+
+/* user review end */
+
+
+
+/* footer start */
+
+#foot {
+  border-right: 1px solid white !important;
+
+}
+
+@media (max-width:768px) {
+  #foot {
+      border-right: none !important;
+  }
+}
+
+.footer-link li {
+  list-style-type: none;
+}
+
+.footer-link li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-link li a:hover {
+  color: blue;
+  font-size: large;
+}
+
+/* footer end */
+
+/* login modal start */
+@media (max-width:575px) {
+  #loginModal {
+      padding: 10px;
+
+  }
+}
+
+.modal-content {
+  background: #D3D3D3;
+}
+
+#main-footer {
+  background-color: #A4161A;
+}
+
+/* login modal end */
+
+/* every service page strat */
+/* .hrow {
+  width: 250px;
+  height: 20px;
+  background-color: #4F6F52;
+  display: inline-block;
+
+} */
+
+/* .maid-book {
+  margin-top: 140px;
+} */
+
+/* every service page end */
+
+
+/* validation messge  start*/
+.errmsg {
+  color: red;
+  padding: 3px;
+}
+
+/* validation message end */
+
+/* price page start */
+
+
+
+/* price page end */
+
+
+
+
+.allbtn {
+  background-color: #A4161A;
+  color: white;
+  
+}
+
+
+
+/* user profile start */
+
+/* @media (min-width:575px) {
+  .cardchage
+  {
+  margin: 0px 80px 0px 80px;
+} 
+ } */
+
+/* user profile end */
+ 
+.oder
+{
+  background-color: #A4161A;
+ 
+}
+
+.booking
+{
+    background-color: #A4161A;
+}
+.overtext{
+	 display:inline-block; 
+	 white-space: nowrap;
+	 overflow: hidden; 
+	 text-overflow: ellipsis; 
+	 max-width: 24ch;
+	
+}
